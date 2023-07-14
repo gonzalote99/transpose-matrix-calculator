@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=PT+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#body {
+  background-color: rgb(17 1 32);
+}
+
+
+.container {
+  position: relative;
+}
+
+h1 {
+  margin: 3vw;
+  color: white;
+  text-align: center;
+}
+
+
+.matrixClass {
+  color: wheat;
+  position: absolute;
+  left: 39vw;
+  top: 8vh;
+
+}
+
+
+input[type="text"] {
+  width: 4vw;
+  background-color: antiquewhite;
+  transition: background-color, 0.3, linear;
+  text-align: center;
+}
+
+table {
+  border: 2px solid white;
+  background-color: black;
+  padding: 2vw 2vw;
+  margin: 2vw 3vw;
+
+}
+
+#button {
+  color: wheat;
+  position: absolute;
+  top: 22vw;
+  left: 48.5vw;
+  height: 3vw;
+  width: 5vw;
+  background-color: rgb(25, 76, 214);
+  border: 2px solid purple;
+  border-radius: 8px;
+  font-size: 17px;
+
+
+}
+
+#button:hover {
+  color: black;
+  background-color: rgb(231, 224, 221);
+}
+
+
+.fontstyle {
+color: white;
+position: absolute;
+top: 27vw;
+left: -16vw;
+font-size: 24px;
+font-family: 'PT Serif', serif;
+}
+
+
+.ansTableClass {
+color: wheat;
+position: absolute;
+top: 32vw;
+left: 41.5vw;
+text-align: center;
+}
+
+.ansTableClass td {
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+
+@media (max-width: 700px) {
+  #button {
+    top: 43vw;
+    width: 9vw;
+    height: 5vw;
+    font-size: 17px;
+    left: 45vw;
+  }
+
+  .matrixClass {
+    left: 29vw;
+    top: 16vw;
+  }
+  .ansTableClass {
+    top: 65vw;
+     left: 33vw;
+     width: 29%;
+  }
+
+  .fontstyle {
+    font-size: 22px;
+    top: 33vw;
+    left: 23vw;
+  }
+
+
+  input[type="text"] {
+    width: 9vw;
+  }
+
+
+}
+
